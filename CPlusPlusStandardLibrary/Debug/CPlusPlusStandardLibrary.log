@@ -1,0 +1,46 @@
+﻿Build started 2016/10/21 16:55:22.
+     1>Project "F:\zrz.Demo\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\CPlusPlusStandardLibrary.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CPlusPlusStandardLibrary.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Chapter01\1config-inclass-init.cpp" "Chapter01\1config-operator-overloading.cpp" "Chapter01\1config-temporary-object.cpp" Chapter01\1config10.cpp Chapter01\1config11.cpp Chapter01\1config12.cpp Chapter01\1config13.cpp Chapter01\1config14.cpp Chapter01\1config5.cpp Chapter01\1config6.cpp Chapter01\1config8.cpp Chapter01\1functor.cpp Chapter02\2jjalloc.cpp Chapter02\2stdalloc.cpp Chapter02\malloc_alloc_template.cpp Chapter02\sub_allocation.cpp CPlusPlusStandardLibrary.cpp
+         CPlusPlusStandardLibrary.cpp
+         sub_allocation.cpp
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\sub_allocation.cpp(58): warning C4346: '__default_alloc_template<threads,inst>::obj' : dependent name is not a type
+                 prefix with 'typename' to indicate a type
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\sub_allocation.cpp(58): error C2143: syntax error : missing ';' before '*'
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\sub_allocation.cpp(59): error C2065: 'threads' : undeclared identifier
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\sub_allocation.cpp(59): error C2065: 'inst' : undeclared identifier
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\sub_allocation.cpp(59): error C2975: 'threads' : invalid template argument for '__default_alloc_template', expected compile-time constant expression
+                 f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\sub_allocation.cpp(8) : see declaration of 'threads'
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\sub_allocation.cpp(59): error C2975: 'inst' : invalid template argument for '__default_alloc_template', expected compile-time constant expression
+                 f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\sub_allocation.cpp(8) : see declaration of 'inst'
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\sub_allocation.cpp(59): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         malloc_alloc_template.cpp
+         2stdalloc.cpp
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\2stdalloc.cpp(37): error C2061: syntax error : identifier '__false_type'
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\2stdalloc.cpp(44): error C2061: syntax error : identifier '__true_type'
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\2stdalloc.cpp(46): error C2995: 'void __destory_aux(ForwardIterator,ForwardIterator)' : function template has already been defined
+                 f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\2stdalloc.cpp(37) : see declaration of '__destory_aux'
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\2stdalloc.cpp(78): error C2065: 'value_type' : undeclared identifier
+                 f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\2stdalloc.cpp(84) : see reference to class template instantiation 'vector<T,Alloc>' being compiled
+     1>f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\chapter02\2stdalloc.cpp(78): error C2923: 'simple_alloc' : 'value_type' is not a valid template type argument for parameter 'T'
+         2jjalloc.cpp
+         1functor.cpp
+         1config8.cpp
+         1config6.cpp
+         1config5.cpp
+         1config14.cpp
+         1config13.cpp
+         1config12.cpp
+         1config11.cpp
+         1config10.cpp
+         1config-temporary-object.cpp
+         1config-operator-overloading.cpp
+         1config-inclass-init.cpp
+         Generating Code...
+     1>Done Building Project "F:\zrz.Demo\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:14.55

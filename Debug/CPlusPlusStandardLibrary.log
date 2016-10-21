@@ -1,0 +1,31 @@
+﻿Build started 2016/10/18 22:50:03.
+     1>Project "E:\My.Learning\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\CPlusPlusStandardLibrary.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CPlusPlusStandardLibrary.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 1config3.cpp Chapter01\1config10.cpp Chapter01\1config11.cpp Chapter01\1config12.cpp Chapter01\1config5.cpp Chapter01\1config6.cpp Chapter01\1config8.cpp CPlusPlusStandardLibrary.cpp
+         CPlusPlusStandardLibrary.cpp
+         1config8.cpp
+         1config6.cpp
+         1config5.cpp
+         1config12.cpp
+         1config11.cpp
+         1config10.cpp
+         1config3.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\My.Learning\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary\Debug\CPlusPlusStandardLibrary.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\My.Learning\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary\Debug\CPlusPlusStandardLibrary.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\My.Learning\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary\Debug\CPlusPlusStandardLibrary.lib" /MACHINE:X86 Debug\1config3.obj
+         Debug\1config10.obj
+         Debug\1config11.obj
+         Debug\1config12.obj
+         Debug\1config5.obj
+         Debug\1config6.obj
+         Debug\1config8.obj
+         Debug\CPlusPlusStandardLibrary.obj
+         Debug\stdafx.obj
+         CPlusPlusStandardLibrary.vcxproj -> E:\My.Learning\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary\Debug\CPlusPlusStandardLibrary.exe
+     1>Done Building Project "E:\My.Learning\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.98
