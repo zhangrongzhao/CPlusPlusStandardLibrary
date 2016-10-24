@@ -100,6 +100,7 @@
     <ClCompile Include="Chapter02\2stdalloc.cpp" />
     <ClCompile Include="Chapter02\malloc_alloc_template.cpp" />
     <ClCompile Include="Chapter02\sub_allocation.cpp" />
+    <ClCompile Include="Chapter02\uninitialized.cpp" />
     <ClCompile Include="CPlusPlusStandardLibrary.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

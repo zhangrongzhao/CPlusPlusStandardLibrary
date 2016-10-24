@@ -89,5 +89,8 @@
     <ClCompile Include="Chapter02\sub_allocation.cpp">
       <Filter>Chapter02</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter02\uninitialized.cpp">
+      <Filter>Chapter02</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
