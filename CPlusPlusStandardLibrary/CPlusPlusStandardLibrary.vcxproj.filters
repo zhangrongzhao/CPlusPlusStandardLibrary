@@ -19,6 +19,9 @@
     <Filter Include="Chapter02">
       <UniqueIdentifier>{631082aa-3df4-40a7-a919-5a3a113d2115}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter03">
+      <UniqueIdentifier>{8b5aca41-8b90-4037-b90c-5a5b9fbf29b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -91,6 +94,12 @@
     </ClCompile>
     <ClCompile Include="Chapter02\uninitialized.cpp">
       <Filter>Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter03\3findAlgo.cpp">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter03\3find.cpp">
+      <Filter>Chapter03</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
