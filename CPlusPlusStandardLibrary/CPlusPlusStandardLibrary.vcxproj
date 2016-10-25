@@ -80,6 +80,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter02\2jjalloc.h" />
+    <ClInclude Include="Chapter03\3mylist.h" />
+    <ClInclude Include="Chapter03\3MyListIterator.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -101,8 +103,11 @@
     <ClCompile Include="Chapter02\malloc_alloc_template.cpp" />
     <ClCompile Include="Chapter02\sub_allocation.cpp" />
     <ClCompile Include="Chapter02\uninitialized.cpp" />
+    <ClCompile Include="Chapter03\3autoptr.cpp" />
     <ClCompile Include="Chapter03\3find.cpp" />
     <ClCompile Include="Chapter03\3findAlgo.cpp" />
+    <ClCompile Include="Chapter03\3mylist-iterator-test.cpp" />
+    <ClCompile Include="Chapter03\3mylist.cpp" />
     <ClCompile Include="CPlusPlusStandardLibrary.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

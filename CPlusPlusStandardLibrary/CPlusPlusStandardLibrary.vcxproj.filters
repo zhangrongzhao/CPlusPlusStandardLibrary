@@ -36,6 +36,12 @@
     <ClInclude Include="Chapter02\2jjalloc.h">
       <Filter>Chapter02</Filter>
     </ClInclude>
+    <ClInclude Include="Chapter03\3mylist.h">
+      <Filter>Chapter03</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter03\3MyListIterator.h">
+      <Filter>Chapter03</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -99,6 +105,15 @@
       <Filter>Chapter03</Filter>
     </ClCompile>
     <ClCompile Include="Chapter03\3find.cpp">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter03\3autoptr.cpp">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter03\3mylist.cpp">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter03\3mylist-iterator-test.cpp">
       <Filter>Chapter03</Filter>
     </ClCompile>
   </ItemGroup>
