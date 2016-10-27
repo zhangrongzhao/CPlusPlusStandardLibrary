@@ -116,5 +116,17 @@
     <ClCompile Include="Chapter03\3mylist-iterator-test.cpp">
       <Filter>Chapter03</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter03\3associatedtypes.cpp">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter03\3advance.cpp">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter03\34iteratorTraits.cpp">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter03\3tag-test.cpp">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

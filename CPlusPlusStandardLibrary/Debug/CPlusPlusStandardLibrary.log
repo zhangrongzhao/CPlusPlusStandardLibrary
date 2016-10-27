@@ -1,16 +1,19 @@
-﻿Build started 2016/10/25 15:26:27.
+﻿Build started 2016/10/27 15:46:37.
      1>Project "F:\zrz.Demo\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary.vcxproj" on node 2 (Rebuild target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'f:\zrz.demo\c++.standard.library\cplusplusstandardlibrary\debug\1config-operator-overloading.obj' because it is being used by another process.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\CPlusPlusStandardLibrary.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CPlusPlusStandardLibrary.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Chapter01\1config-inclass-init.cpp" "Chapter01\1config-operator-overloading.cpp" "Chapter01\1config-temporary-object.cpp" Chapter01\1config10.cpp Chapter01\1config11.cpp Chapter01\1config12.cpp Chapter01\1config13.cpp Chapter01\1config14.cpp Chapter01\1config5.cpp Chapter01\1config6.cpp Chapter01\1config8.cpp Chapter01\1functor.cpp Chapter02\2jjalloc.cpp Chapter02\2stdalloc.cpp Chapter02\malloc_alloc_template.cpp Chapter02\sub_allocation.cpp Chapter02\uninitialized.cpp Chapter03\3autoptr.cpp Chapter03\3find.cpp Chapter03\3findAlgo.cpp "Chapter03\3mylist-iterator-test.cpp" Chapter03\3mylist.cpp CPlusPlusStandardLibrary.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CPlusPlusStandardLibrary.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Chapter01\1config-inclass-init.cpp" "Chapter01\1config-operator-overloading.cpp" "Chapter01\1config-temporary-object.cpp" Chapter01\1config10.cpp Chapter01\1config11.cpp Chapter01\1config12.cpp Chapter01\1config13.cpp Chapter01\1config14.cpp Chapter01\1config5.cpp Chapter01\1config6.cpp Chapter01\1config8.cpp Chapter01\1functor.cpp Chapter02\2jjalloc.cpp Chapter02\2stdalloc.cpp Chapter02\malloc_alloc_template.cpp Chapter02\sub_allocation.cpp Chapter02\uninitialized.cpp Chapter03\34iteratorTraits.cpp Chapter03\3advance.cpp Chapter03\3associatedtypes.cpp Chapter03\3autoptr.cpp Chapter03\3find.cpp Chapter03\3findAlgo.cpp "Chapter03\3mylist-iterator-test.cpp" Chapter03\3mylist.cpp "Chapter03\3tag-test.cpp" CPlusPlusStandardLibrary.cpp
          CPlusPlusStandardLibrary.cpp
+         3tag-test.cpp
          3mylist.cpp
          3mylist-iterator-test.cpp
          3findAlgo.cpp
          3find.cpp
          3autoptr.cpp
+         3associatedtypes.cpp
+         3advance.cpp
+         34iteratorTraits.cpp
          uninitialized.cpp
          sub_allocation.cpp
          malloc_alloc_template.cpp
@@ -21,12 +24,12 @@
          1config6.cpp
          1config5.cpp
          1config14.cpp
+         Generating Code...
+         Compiling...
          1config13.cpp
          1config12.cpp
          1config11.cpp
          1config10.cpp
-         Generating Code...
-         Compiling...
          1config-temporary-object.cpp
          1config-operator-overloading.cpp
          1config-inclass-init.cpp
@@ -49,17 +52,20 @@
          Debug\malloc_alloc_template.obj
          Debug\sub_allocation.obj
          Debug\uninitialized.obj
+         Debug\34iteratorTraits.obj
+         Debug\3advance.obj
+         Debug\3associatedtypes.obj
          Debug\3autoptr.obj
          Debug\3find.obj
          Debug\3findAlgo.obj
          "Debug\3mylist-iterator-test.obj"
          Debug\3mylist.obj
+         "Debug\3tag-test.obj"
          Debug\CPlusPlusStandardLibrary.obj
          Debug\stdafx.obj
-     1>MSVCRTD.lib(crtexe.obj) : error LNK2019: unresolved external symbol _main referenced in function ___tmainCRTStartup
-     1>F:\zrz.Demo\C++.Standard.Library\Debug\CPlusPlusStandardLibrary.exe : fatal error LNK1120: 1 unresolved externals
-     1>Done Building Project "F:\zrz.Demo\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary.vcxproj" (Rebuild target(s)) -- FAILED.
+         CPlusPlusStandardLibrary.vcxproj -> F:\zrz.Demo\C++.Standard.Library\Debug\CPlusPlusStandardLibrary.exe
+     1>Done Building Project "F:\zrz.Demo\C++.Standard.Library\CPlusPlusStandardLibrary\CPlusPlusStandardLibrary.vcxproj" (Rebuild target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:18.35
+Time Elapsed 00:00:19.12
