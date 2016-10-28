@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter02\2jjalloc.h" />
+    <ClInclude Include="Chapter03\3iterator.h" />
     <ClInclude Include="Chapter03\3mylist.h" />
     <ClInclude Include="Chapter03\3MyListIterator.h" />
     <ClInclude Include="stdafx.h" />

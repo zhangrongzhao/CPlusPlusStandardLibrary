@@ -42,6 +42,9 @@
     <ClInclude Include="Chapter03\3MyListIterator.h">
       <Filter>Chapter03</Filter>
     </ClInclude>
+    <ClInclude Include="Chapter03\3iterator.h">
+      <Filter>Chapter03</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
