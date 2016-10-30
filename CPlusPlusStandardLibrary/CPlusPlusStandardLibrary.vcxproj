@@ -83,6 +83,7 @@
     <ClInclude Include="Chapter03\3iterator.h" />
     <ClInclude Include="Chapter03\3mylist.h" />
     <ClInclude Include="Chapter03\3MyListIterator.h" />
+    <ClInclude Include="Chapter03\3typetraits.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
