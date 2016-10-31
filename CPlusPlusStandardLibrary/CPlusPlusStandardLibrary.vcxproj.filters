@@ -22,6 +22,9 @@
     <Filter Include="Chapter03">
       <UniqueIdentifier>{8b5aca41-8b90-4037-b90c-5a5b9fbf29b5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter04">
+      <UniqueIdentifier>{4c3fbd37-5200-4784-8d35-1a08e4a08015}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -47,6 +50,9 @@
     </ClInclude>
     <ClInclude Include="Chapter03\3typetraits.h">
       <Filter>Chapter03</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter04\4vector.h">
+      <Filter>Chapter04</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +139,9 @@
     </ClCompile>
     <ClCompile Include="Chapter03\3tag-test.cpp">
       <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter04\4vector-test.cpp">
+      <Filter>Chapter04</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

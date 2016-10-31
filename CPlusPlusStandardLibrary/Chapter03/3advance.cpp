@@ -161,5 +161,5 @@ struct iterator{
 	typedef Reference reference;
 };
 
-template<typename Item>
-struct ListIterator :public std::iterator<std::forward_iterator_tag, Item>{ };
+//template<typename Item>
+//struct ListIterator :public std::iterator<std::forward_iterator_tag, Item>{ };

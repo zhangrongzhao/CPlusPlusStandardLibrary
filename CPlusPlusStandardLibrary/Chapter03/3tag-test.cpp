@@ -16,13 +16,13 @@ template<typename I>
 void func(I& p,D2){
 	cout << "D2 version"<< endl;
 }
-
-int main(){
-	int* p;
-	func(p,B());
-	func(p,D1());
-	func(p,D2());
-}
+//
+//int main(){
+//	int* p;
+//	func(p,B());
+//	func(p,D1());
+//	func(p,D2());
+//}
 
 
 
