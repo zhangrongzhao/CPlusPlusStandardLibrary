@@ -54,6 +54,18 @@
     <ClInclude Include="Chapter04\4vector.h">
       <Filter>Chapter04</Filter>
     </ClInclude>
+    <ClInclude Include="Chapter04\4list-node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter04\4list-iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter04\4list-iterator.h">
+      <Filter>Chapter04</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter04\4list-node.h">
+      <Filter>Chapter04</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -141,6 +153,9 @@
       <Filter>Chapter03</Filter>
     </ClCompile>
     <ClCompile Include="Chapter04\4vector-test.cpp">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter04\4list-test.cpp">
       <Filter>Chapter04</Filter>
     </ClCompile>
   </ItemGroup>
