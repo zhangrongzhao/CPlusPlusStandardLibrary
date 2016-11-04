@@ -163,7 +163,9 @@ public:
 	void splice(iterator position,list& x,iterator first,iterator last);
 
 	void merge(list<T,Alloc>& x);
+	//将*this的内容逆向重置
 	void reverse();
+	//不能使用STL的sort()算法，必须使用自己的sort()的member function.因为STL算法的sort()只接受RandomAccessIterator，本函数采用quick sort.
 	void sort();
 };
 
@@ -280,10 +282,45 @@ void list<T, Alloc>::merge(list<T,Alloc>& x){
 
 template<typename T,typename Alloc>
 void list<T, Alloc>::reverse(){
-
+	//以下判断，如果是空链表，或仅有一个元素，就不进行任何操作
+	//可以使用size()==0或者size()==1来判断，虽然可以，但是速度比较慢
+	if (node->next==node||(link_type(node->next))->next==node){
+		return;
+	}
+	iterator first = begin();
+	while (first!=end())
+	{
+		iterator old = first;
+		++first;
+		transfer(begin(),old,first);
+	}
 }
 
+//不能使用STL的sort()算法，必须使用自己的sort()的member function.
+//因为STL算法的sort()只接受RandomAccessIterator，
+//本函数采用quick sort.快排算法
 template<typename T,typename Alloc>
 void list<T, Alloc>::sort(){
-
+	//以下判断，如果是空链表，或仅有一个元素，就不进行任何操作
+	//可以使用size()==0或者size()==1判断，虽然可以，但是速度较慢
+	if (node->next == node || ((link_type)(node->next))->next == node){ return; }
+	//一些新的lists作为数据缓冲区
+	list<T, Alloc> carry;
+	list<T, Alloc> counter[64];
+	int fill = 0;
+	while (!empty()){
+		carry.splice(carry.begin(),*this,begin());
+		int i = 0;
+		while (i < fill && !counter[i].empty()){
+			counter[i].merge(carry);
+			carry.swap(counter[i++]);
+		}
+		carry.swap(counter[i]);
+		if (i == fill)
+			++fill;
+	}
+	for (int i = 1; i < fill;++i){
+		counter[i].merge(counter[i-1]);
+	}
+	swap(counter[fill-1]);
 }
