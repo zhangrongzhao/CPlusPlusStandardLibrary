@@ -298,7 +298,7 @@ void list<T, Alloc>::reverse(){
 
 //不能使用STL的sort()算法，必须使用自己的sort()的member function.
 //因为STL算法的sort()只接受RandomAccessIterator，
-//本函数采用quick sort.快排算法
+//本函数采用quick sort.快排算法（基本思路：合并有序链表）
 template<typename T,typename Alloc>
 void list<T, Alloc>::sort(){
 	//以下判断，如果是空链表，或仅有一个元素，就不进行任何操作
@@ -309,18 +309,18 @@ void list<T, Alloc>::sort(){
 	list<T, Alloc> counter[64];
 	int fill = 0;
 	while (!empty()){
-		carry.splice(carry.begin(),*this,begin());
+		carry.splice(carry.begin(),*this,begin());//从原链表中获取一个节点
 		int i = 0;
 		while (i < fill && !counter[i].empty()){
-			counter[i].merge(carry);
-			carry.swap(counter[i++]);
+			counter[i].merge(carry); // 合并carry链表到counter[i]
+			carry.swap(counter[i++]);// 交换counter[i]到carry.
 		}
-		carry.swap(counter[i]);
+		carry.swap(counter[i]);//交换carry到counter
 		if (i == fill)
 			++fill;
 	}
-	for (int i = 1; i < fill;++i){
+	for (int i = 1; i < fill;++i){//合并counter中的fill个链表
 		counter[i].merge(counter[i-1]);
 	}
-	swap(counter[fill-1]);
+	swap(counter[fill-1]);//和当前链表交换，获取最终的排序后的链表
 }
