@@ -80,7 +80,50 @@ public:
 
 	//以下实现随机存取，迭代器可以跳跃n个距离
 	self& operator+=(difference_type n){
-	
+		difference_type  offset = n + (cur - first);//相对于当前缓冲区起始位置的偏移量
+		if (offset >= 0 && offset < difference_type(buffer_size)){
+            //目标位置在同一缓冲区内
+			cur += n;
+		}else{
+			//目标位置不在同一缓冲区内
+			difference_type node_offset = offset > 0 ? offset / difference_type(buffer_size()) : -difference_type((-offset - 1) / buffer_size()) - 1;
+			//切换至正确的节点（亦即缓冲区）
+			set_node(node + node_offset);
+			//切换至正确的元素
+			cur = first + (offset-node_offset*difference_type(buffer_size()));
+		}
+		return *this;
+	}
+
+	self operator+(difference_type n) const{
+		self temp = *this;
+		return temp += n;//调用operator+=
+	}
+
+	self& operator-=(difference_type n){
+		return *this += -n;//调用operator+=
+	}
+
+	self operator-(difference_type n) const{
+		self temp = *this;
+		return temp -= n;//调用operator-=
+	}
+
+	//以下实现随机存取，迭代器可以直接跳跃n个距离。
+	reference operator[](difference_type n) const{
+		return *(*this + n);//1.调用operator+;2.调用operator*
+	}
+
+	bool operator==(const self& x) const{
+		return cur == x.cur;
+	}
+
+	bool operator!=(const self& x) const{
+		return !(*this == x);//调用operator==
+	}
+
+	bool operator<(const self& x) const{
+		return node == x.node ? (cur < x.cur) : (node < x.node);
 	}
 
 };

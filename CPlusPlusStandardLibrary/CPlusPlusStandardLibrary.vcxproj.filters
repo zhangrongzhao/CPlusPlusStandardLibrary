@@ -66,6 +66,12 @@
     <ClInclude Include="Chapter04\4vector.h">
       <Filter>Chapter04</Filter>
     </ClInclude>
+    <ClInclude Include="Chapter04\4deque.h">
+      <Filter>Chapter04</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter04\4deque-iterator.h">
+      <Filter>Chapter04</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

@@ -147,6 +147,8 @@
     <ClInclude Include="Chapter03\3mylist.h" />
     <ClInclude Include="Chapter03\3MyListIterator.h" />
     <ClInclude Include="Chapter03\3typetraits.h" />
+    <ClInclude Include="Chapter04\4deque-iterator.h" />
+    <ClInclude Include="Chapter04\4deque.h" />
     <ClInclude Include="Chapter04\4list-iterator.h" />
     <ClInclude Include="Chapter04\4list-node.h" />
     <ClInclude Include="Chapter04\4vector.h" />
