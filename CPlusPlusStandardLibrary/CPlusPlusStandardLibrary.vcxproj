@@ -182,6 +182,7 @@
     <ClCompile Include="Chapter03\3mylist-iterator-test.cpp" />
     <ClCompile Include="Chapter03\3mylist.cpp" />
     <ClCompile Include="Chapter03\3tag-test.cpp" />
+    <ClCompile Include="Chapter04\4deque-test.cpp" />
     <ClCompile Include="Chapter04\4list-test.cpp" />
     <ClCompile Include="Chapter04\4vector-test.cpp" />
     <ClCompile Include="CPlusPlusStandardLibrary.cpp" />

@@ -164,5 +164,8 @@
     <ClCompile Include="Chapter04\4vector-test.cpp">
       <Filter>Chapter04</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter04\4deque-test.cpp">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

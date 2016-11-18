@@ -2,11 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "Chapter01\1config13.cpp"
-
-int _tmain(int argc, _TCHAR* argv[])
-{
-
-	return 0;
-}
+//#include "Chapter01\1config13.cpp"
+//
+//int _tmain(int argc, _TCHAR* argv[])
+//{
+//
+//	return 0;
+//}
 
