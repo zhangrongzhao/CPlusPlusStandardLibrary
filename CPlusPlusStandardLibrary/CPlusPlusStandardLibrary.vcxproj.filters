@@ -72,6 +72,9 @@
     <ClInclude Include="Chapter04\4deque-iterator.h">
       <Filter>Chapter04</Filter>
     </ClInclude>
+    <ClInclude Include="Chapter02\2simple_alloc.h">
+      <Filter>Chapter02</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
