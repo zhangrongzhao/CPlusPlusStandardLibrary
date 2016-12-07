@@ -75,6 +75,12 @@
     <ClInclude Include="Chapter02\2simple_alloc.h">
       <Filter>Chapter02</Filter>
     </ClInclude>
+    <ClInclude Include="Chapter04\4stack.h">
+      <Filter>Chapter04</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter04\4queue.h">
+      <Filter>Chapter04</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -168,6 +174,12 @@
       <Filter>Chapter04</Filter>
     </ClCompile>
     <ClCompile Include="Chapter04\4deque-test.cpp">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter04\4stack-test.cpp">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter04\4queue-test.cpp">
       <Filter>Chapter04</Filter>
     </ClCompile>
   </ItemGroup>
